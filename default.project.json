@@ -1,0 +1,19 @@
+{
+  "name": "shaking-effect",
+  "tree": {
+    "$className": "DataModel",
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "DialogueClientScript": {
+          "$className": "LocalScript",
+          "Effects": {
+            "$className": "Folder",
+            "ShakingEffect": {
+              "$path": "src"
+            }
+          }
+        }
+      }
+    }
+  }
+}
