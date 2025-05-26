@@ -5,14 +5,10 @@
 -- Programmer: Christian Toney
 -- © 2025 Dialogue Maker Group
 
-local StarterPlayer = game:GetService("StarterPlayer");
-local StarterPlayerScripts = StarterPlayer.StarterPlayerScripts;
-
-local DialogueClientScript = StarterPlayerScripts.DialogueClientScript;
-local DialogueContentFitter = require(DialogueClientScript.Packages["dialogue-content-fitter"]);
-local Effect = require(DialogueClientScript.Packages.effect);
-local IEffect = require(DialogueClientScript.Packages["effect-types"]);
-local React = require(DialogueClientScript.Packages.react);
+local DialogueContentFitter = require(script.Parent["dialogue-content-fitter"]);
+local Effect = require(script.Parent.effect);
+local IEffect = require(script.Parent["effect-types"]);
+local React = require(script.Parent.react);
 local ShakingContainer = require(script.ShakingContainer);
 
 type Bounds = IEffect.Bounds;

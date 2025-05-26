@@ -1,11 +1,7 @@
 --!strict
 
-local StarterPlayer = game:GetService("StarterPlayer");
-local StarterPlayerScripts = StarterPlayer.StarterPlayerScripts;
-
-local DialogueClientScript = StarterPlayerScripts.DialogueClientScript;
-local React = require(DialogueClientScript.Packages.react);
-local IEffect = require(DialogueClientScript.Interfaces.Effect);
+local React = require(script.Parent.Parent.react);
+local IEffect = require(script.Parent.Parent["effect-types"]);
 
 type ExecutionProperties = IEffect.ExecutionProperties;
 

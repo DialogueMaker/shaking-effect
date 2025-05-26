@@ -1,0 +1,13 @@
+{
+  "name": "shaking-effect",
+  "tree": {
+    "$className": "DataModel",
+    "shaking-effect": {
+      "$path": "Packages",
+      "$ignoreUnknownInstances": true,
+      "shaking-effect": {
+        "$path": "src"
+      }
+    }
+  }
+}
