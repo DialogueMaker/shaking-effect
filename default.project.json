@@ -6,14 +6,12 @@
       "StarterPlayerScripts": {
         "DialogueClientScript": {
           "$className": "LocalScript",
-          "Effects": {
-            "$className": "Folder",
-            "ShakingEffect": {
+          "Packages": {
+            "$path": "Packages",
+            "$ignoreUnknownInstances": true,
+            "shaking-effect": {
               "$path": "src"
             }
-          },
-          "Packages": {
-            "$path": "Packages"
           }
         }
       }

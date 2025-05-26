@@ -9,9 +9,9 @@ local StarterPlayer = game:GetService("StarterPlayer");
 local StarterPlayerScripts = StarterPlayer.StarterPlayerScripts;
 
 local DialogueClientScript = StarterPlayerScripts.DialogueClientScript;
-local DialogueContentFitter = require(DialogueClientScript.Classes.DialogueContentFitter);
-local Effect = require(DialogueClientScript.Classes.Effect);
-local IEffect = require(DialogueClientScript.Interfaces.Effect);
+local DialogueContentFitter = require(DialogueClientScript.Packages["dialogue-content-fitter"]);
+local Effect = require(DialogueClientScript.Packages.effect);
+local IEffect = require(DialogueClientScript.Packages["effect-types"]);
 local React = require(DialogueClientScript.Packages.react);
 local ShakingContainer = require(script.ShakingContainer);
 
