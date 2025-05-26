@@ -11,6 +11,9 @@
             "ShakingEffect": {
               "$path": "src"
             }
+          },
+          "Packages": {
+            "$path": "Packages"
           }
         }
       }
