@@ -1,7 +1,8 @@
 --!strict
 
-local React = require(script.Parent.Parent.react);
-local IEffect = require(script.Parent.Parent["effect-types"]);
+local packages = script.Parent.Parent.roblox_packages;
+local React = require(packages.react);
+local IEffect = require(packages.effect_types);
 
 type ExecutionProperties = IEffect.ExecutionProperties;
 
