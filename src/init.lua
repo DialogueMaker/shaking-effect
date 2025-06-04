@@ -8,17 +8,17 @@
 local packages = script.Parent.roblox_packages;
 local DialogueContentFitter = require(packages.dialogue_content_fitter);
 local Effect = require(packages.effect);
-local IEffect = require(packages.effect_types);
+local DialogueMakerTypes = require(packages.dialogue_maker_types);
 local React = require(packages.react);
 local ShakingContainer = require(script.ShakingContainer);
 
-type Bounds = IEffect.Bounds;
-type ContinuePageFunction = IEffect.ContinuePageFunction;
-type Effect = IEffect.Effect;
-type ExecutionProperties = IEffect.ExecutionProperties;
-type Page = IEffect.Page;
+type Bounds = DialogueMakerTypes.Bounds;
+type ContinuePageFunction = DialogueMakerTypes.ContinuePageFunction;
+type Effect = DialogueMakerTypes.Effect;
+type ExecutionProperties = DialogueMakerTypes.ExecutionProperties;
+type Page = DialogueMakerTypes.Page;
 type ShakingEffectProperties = ShakingContainer.ShakingEffectProperties;
-type RunEffectFunctionReturnValue = IEffect.RunEffectFunctionReturnValue;
+type RunEffectFunctionReturnValue = DialogueMakerTypes.RunEffectFunctionReturnValue;
 
 local ShakingEffect = {};
 

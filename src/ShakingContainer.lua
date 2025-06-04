@@ -2,9 +2,9 @@
 
 local packages = script.Parent.Parent.roblox_packages;
 local React = require(packages.react);
-local IEffect = require(packages.effect_types);
+local DialogueMakerTypes = require(packages.dialogue_maker_types);
 
-type ExecutionProperties = IEffect.ExecutionProperties;
+type ExecutionProperties = DialogueMakerTypes.ExecutionProperties;
 
 export type ShakingEffectProperties = {
   intensity: number?;
